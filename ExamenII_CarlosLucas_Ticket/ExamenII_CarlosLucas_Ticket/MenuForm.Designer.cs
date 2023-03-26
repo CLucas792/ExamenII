@@ -41,7 +41,6 @@ namespace ExamenII_CarlosLucas_Ticket
             this.toolStripEx3 = new Syncfusion.Windows.Forms.Tools.ToolStripEx();
             this.toolStripButton3 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton4 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton5 = new System.Windows.Forms.ToolStripButton();
             this.toolStripTabItem4 = new Syncfusion.Windows.Forms.Tools.ToolStripTabItem();
             this.toolStripEx4 = new Syncfusion.Windows.Forms.Tools.ToolStripEx();
             this.toolStripButton6 = new System.Windows.Forms.ToolStripButton();
@@ -79,7 +78,7 @@ namespace ExamenII_CarlosLucas_Ticket
             this.ribbonControlAdv1.OfficeMenu.Size = new System.Drawing.Size(12, 65);
             this.ribbonControlAdv1.QuickPanelImageLayout = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.ribbonControlAdv1.RibbonHeaderImage = Syncfusion.Windows.Forms.Tools.RibbonHeaderImage.None;
-            this.ribbonControlAdv1.SelectedTab = this.toolStripTabItem4;
+            this.ribbonControlAdv1.SelectedTab = this.toolStripTabItem3;
             this.ribbonControlAdv1.ShowRibbonDisplayOptionButton = true;
             this.ribbonControlAdv1.Size = new System.Drawing.Size(741, 115);
             this.ribbonControlAdv1.SystemText.QuickAccessDialogDropDownName = "Start menu";
@@ -115,7 +114,7 @@ namespace ExamenII_CarlosLucas_Ticket
             this.toolStripEx1.Location = new System.Drawing.Point(0, 1);
             this.toolStripEx1.Name = "toolStripEx1";
             this.toolStripEx1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.toolStripEx1.Size = new System.Drawing.Size(133, 59);
+            this.toolStripEx1.Size = new System.Drawing.Size(41, 59);
             this.toolStripEx1.TabIndex = 0;
             // 
             // toolStripButton1
@@ -123,7 +122,7 @@ namespace ExamenII_CarlosLucas_Ticket
             this.toolStripButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton1.Image")));
             this.toolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton1.Name = "toolStripButton1";
-            this.toolStripButton1.Size = new System.Drawing.Size(126, 32);
+            this.toolStripButton1.Size = new System.Drawing.Size(126, 56);
             this.toolStripButton1.Text = "Gestion de Usuario";
             this.toolStripButton1.Click += new System.EventHandler(this.toolStripButton1_Click);
             // 
@@ -155,7 +154,7 @@ namespace ExamenII_CarlosLucas_Ticket
             this.toolStripEx2.Location = new System.Drawing.Point(0, 1);
             this.toolStripEx2.Name = "toolStripEx2";
             this.toolStripEx2.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.toolStripEx2.Size = new System.Drawing.Size(100, 59);
+            this.toolStripEx2.Size = new System.Drawing.Size(41, 59);
             this.toolStripEx2.TabIndex = 0;
             // 
             // toolStripButton2
@@ -163,7 +162,7 @@ namespace ExamenII_CarlosLucas_Ticket
             this.toolStripButton2.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton2.Image")));
             this.toolStripButton2.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton2.Name = "toolStripButton2";
-            this.toolStripButton2.Size = new System.Drawing.Size(93, 32);
+            this.toolStripButton2.Size = new System.Drawing.Size(93, 38);
             this.toolStripButton2.Text = "Crear Cliente";
             this.toolStripButton2.Click += new System.EventHandler(this.toolStripButton2_Click);
             // 
@@ -192,12 +191,11 @@ namespace ExamenII_CarlosLucas_Ticket
             this.toolStripEx3.Image = null;
             this.toolStripEx3.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripButton3,
-            this.toolStripButton4,
-            this.toolStripButton5});
+            this.toolStripButton4});
             this.toolStripEx3.Location = new System.Drawing.Point(0, 1);
             this.toolStripEx3.Name = "toolStripEx3";
             this.toolStripEx3.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.toolStripEx3.Size = new System.Drawing.Size(295, 59);
+            this.toolStripEx3.Size = new System.Drawing.Size(237, 59);
             this.toolStripEx3.TabIndex = 0;
             // 
             // toolStripButton3
@@ -217,14 +215,6 @@ namespace ExamenII_CarlosLucas_Ticket
             this.toolStripButton4.Size = new System.Drawing.Size(114, 32);
             this.toolStripButton4.Text = "Responder ticket";
             this.toolStripButton4.Click += new System.EventHandler(this.toolStripButton4_Click);
-            // 
-            // toolStripButton5
-            // 
-            this.toolStripButton5.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton5.Image")));
-            this.toolStripButton5.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton5.Name = "toolStripButton5";
-            this.toolStripButton5.Size = new System.Drawing.Size(89, 32);
-            this.toolStripButton5.Text = "Cerrar ticket";
             // 
             // toolStripTabItem4
             // 
@@ -254,7 +244,7 @@ namespace ExamenII_CarlosLucas_Ticket
             this.toolStripEx4.Location = new System.Drawing.Point(0, 1);
             this.toolStripEx4.Name = "toolStripEx4";
             this.toolStripEx4.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.toolStripEx4.Size = new System.Drawing.Size(140, 59);
+            this.toolStripEx4.Size = new System.Drawing.Size(109, 59);
             this.toolStripEx4.TabIndex = 0;
             // 
             // toolStripButton6
@@ -316,6 +306,5 @@ namespace ExamenII_CarlosLucas_Ticket
         private Syncfusion.Windows.Forms.Tools.ToolStripEx toolStripEx3;
         private System.Windows.Forms.ToolStripButton toolStripButton3;
         private System.Windows.Forms.ToolStripButton toolStripButton4;
-        private System.Windows.Forms.ToolStripButton toolStripButton5;
     }
 }
